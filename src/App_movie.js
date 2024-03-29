@@ -7,12 +7,7 @@ import { FaHome } from "react-icons/fa";
 // import HelloCss from './02/HelloCss';
 // import MyDiv1 from './03_1/MyDiv1';
 // import MyListMain from './04/MyListMain';
-// import BoxOfficetb from './05_1/BoxOfficetb';
-// import Lotto from './06/Lotto';
-// import FoodCard2 from './07/FoodCard2';
-// import Foodmain2 from './07/Foodmain2';
-// import MyClock from './08/MyClock';
-import Festival from './12/Festival';
+import BoxOfficetb from './05_1/BoxOfficetb';
 
 function App() {
 
@@ -34,12 +29,12 @@ function App() {
       <main className='grow flex flex-col 
                             justify-center items-center 
                       '>
-         <Festival/>
+          <BoxOfficetb />
       </main>
       <footer className='flex justify-center items-center
                           h-20 bg-slate-800
                           text-base text-white'>
-          ⓒ 2024 Ingyu_Choe. All right reserved. 
+          ⓒ 2024 KimKyungMin. All right reserved. 
       </footer>
     </div>
   );
